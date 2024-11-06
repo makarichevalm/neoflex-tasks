@@ -1,0 +1,28 @@
+.ttip{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ttip_text {
+  position: relative;
+  cursor: pointer;
+}
+.ttip_text::after{
+  content: attr(data-tooltip);
+  position: absolute;
+  text-align: center;
+  width: 70px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top:-70px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 1s;
+}
+.ttip_text:hover::after{
+  opacity: 1;
+}
