@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  border-bottom: 3px solid black;
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */
