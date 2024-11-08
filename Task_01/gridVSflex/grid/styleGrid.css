@@ -28,9 +28,28 @@
     width: 100%;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 640px) and (max-width: 940px){
   .card_4{
+    grid-column: 1 / 2;
+    width: 155%;
+  }
+  .card_5{
+    grid-column: 2 / 3;
+    width: 155%;
+    margin-left: 110px;
+  }
+}
+@media (max-width: 640px) {
+  .card_4{
+    grid-column: 2;
+  }
+  .card_5{
+    margin-left: 0;
     grid-column: span 2;
-    width: 75%;
+  }
+}
+@media (max-width: 425px){
+  .card{
+    grid-column: 1;
   }
 }
