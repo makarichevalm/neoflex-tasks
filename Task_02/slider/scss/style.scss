@@ -1,0 +1,21 @@
+body{
+  background-color: #f0f0f0;
+}
+.container{
+  margin: auto;
+  width: 1300px;
+}
+.slider{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 80px;
+}
+.slider_block{
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 5px 5px #cbcbcb;;
+}
