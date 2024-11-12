@@ -1,11 +1,12 @@
 body{
   background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
 }
 .container{
-  margin: auto;
   width: 1300px;
 }
-.slider{
+.slider_content{
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -17,5 +18,28 @@ body{
   border-radius: 15px;
   background-color: white;
   padding: 20px;
-  box-shadow: 0 0 5px 5px #cbcbcb;;
+  box-shadow: 0 0 5px 5px #cbcbcb;
+}
+.slider_nav{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+  gap: 10px;
+}
+.slider_btn{
+  border: none;
+  border-radius: 100%;
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px #cbcbcb;
+}
+.slider_btn:hover{
+  background-color: #cbcbcb;
+}
+.slider_btn:disabled {
+  opacity: 0.5;
 }
