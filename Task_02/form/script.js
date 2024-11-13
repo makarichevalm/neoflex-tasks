@@ -1,9 +1,9 @@
 const username = document.getElementById("username");
 const password = document.getElementById("password");
 function showValid(input) {
+  let success = input.nextElementSibling;
+  success.innerText = "";
   input.className = "validInp";
-  let err = input.nextElementSibling;
-  err.innerText = "";
 }
 function showInvalid(input, mes) {
   let err = input.nextElementSibling;
