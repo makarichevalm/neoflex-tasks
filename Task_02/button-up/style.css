@@ -1,0 +1,28 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  display: flex;
+  justify-content: center;  
+}
+.content{
+  text-align: justify;
+  width: 30%;
+}
+.up_btn{
+  display: none;
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background: rgb(240, 240, 240);
+  box-shadow: 0 0px 5px rgb(114, 114, 114);
+  cursor: pointer;
+}
+.up_btn:hover{
+  background:rgb(214, 250, 255);
+  box-shadow: 0 0px 20px rgb(114, 114, 114);
+}
