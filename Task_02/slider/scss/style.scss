@@ -3,22 +3,36 @@ body{
   display: flex;
   justify-content: center;
 }
-.container{
+.slider{
+  position: relative;
   width: 1300px;
+  overflow-x: hidden;
 }
 .slider_content{
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 80px;
+  gap: 60px;
+  padding: 20px;
+  /*overflow-x: auto;*/
 }
 .slider_block{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 300px;
-  height: 400px;
+  height: 350px;
   border-radius: 15px;
   background-color: white;
   padding: 20px;
   box-shadow: 0 0 5px 5px #cbcbcb;
+  box-sizing: border-box;
+  .slider_img{
+    width: 260px;
+  }
+  p{
+    text-align: justify;
+  }
 }
 .slider_nav{
   margin-top: 20px;
