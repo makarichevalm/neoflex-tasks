@@ -1,4 +1,5 @@
 const baseURL = "https://api.slingacademy.com/v1/sample-data/photos";
+
 const getPhotos = () => {
   axios
     .get(baseURL + "?limit=5")

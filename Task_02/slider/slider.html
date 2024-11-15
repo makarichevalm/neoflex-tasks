@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./scss/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="slider.js" defer></script>
     <title>Slider</title>
   </head>
   <body>
     <main class="container">
       <article class="slider">
         <div class="slider_content"></div>
-        <div class="slider_nav">
-          <button class="slider_btn">
-            <img src="../img/left_arrow.svg" alt="Влево" />
-          </button>
-          <button class="slider_btn">
-            <img src="../img/right_arrow.svg" alt="Вправо" />
-          </button>
-        </div>
       </article>
+      <div class="navigate">
+        <button class="navigate_btn">
+          <img src="../img/left_arrow.svg" alt="Влево" />
+        </button>
+        <button class="navigate_btn">
+          <img src="../img/right_arrow.svg" alt="Вправо" />
+        </button>
+      </div>
     </main>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="slider.js"></script>
   </body>
 </html>
