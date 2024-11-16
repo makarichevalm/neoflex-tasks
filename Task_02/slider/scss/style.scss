@@ -7,36 +7,34 @@ body{
   align-items: center;
 }
 .container{
-  width: 1300px;
+  width: 90vw;
   position: relative;
 }
 .slider{
   scroll-behavior: smooth;
   scrollbar-width: none;
-  overflow: hidden;/*auto*/
+  overflow: auto;/*auto*/
 }
 .slider_content{
   display: grid;
-  padding: 20px;
+  padding: 20px 0;
   gap: 40px;
   grid-auto-flow: column;
 }
 .slider_block{
-  width: 300px;
   border-radius: 15px;
   background-color: white;
   padding: 20px;
   border: 2px solid #cbcbcb;
   box-sizing: border-box;
   .slider_img{
-    width: 260px;
+    width: 240px;
   }
   p{
     text-align: justify;
   }
 }
 .navigate{
-  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: end;
