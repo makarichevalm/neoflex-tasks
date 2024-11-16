@@ -35,35 +35,20 @@ const sliderGap = 40;
 btnPrev.addEventListener("click", function () {
   const blockWidth = document.querySelector(".slider_block").offsetWidth;
   slider.scrollBy(-(blockWidth + sliderGap), 0);
-  console.log(
-    "<-",
-    slider.scrollLeft,
-    content.scrollWidth,
-    slider.scrollWidth,
-    slider.offsetWidth
-  );
   if (slider.scrollLeft - blockWidth - sliderGap <= 0) btnPrev.disabled = true;
-  /*if (
-    !content.scrollWidth - blockWidth - sliderGap <=
+  if (
+    !slider.scrollWidth - blockWidth - sliderGap <=
     slider.scrollLeft + blockWidth
   )
-    btnNext.disabled = false;*/
+    btnNext.disabled = false;
 });
 btnNext.addEventListener("click", function () {
   const blockWidth = document.querySelector(".slider_block").offsetWidth;
   slider.scrollBy(blockWidth + sliderGap, 0);
-  console.log(
-    "->",
-    content.scrollLeft,
-    slider.scrollLeft,
-    content.scrollWidth,
-    slider.scrollWidth,
-    slider.offsetWidth
-  );
-  /*if (slider.scrollLeft - blockWidth - sliderGap <= 0) btnPrev.disabled = false;*/
+  if (slider.scrollLeft - blockWidth - sliderGap <= 0) btnPrev.disabled = false;
   if (
-    slider.scrollLeft + slider.offsetWidth >=
-    slider.scrollWidth - slider.offsetWidth - sliderGap
+    slider.scrollWidth - blockWidth - sliderGap <=
+    slider.scrollLeft + blockWidth
   )
     btnNext.disabled = true;
 });

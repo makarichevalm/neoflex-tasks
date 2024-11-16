@@ -15,7 +15,7 @@ body {
 .slider {
   scroll-behavior: smooth;
   scrollbar-width: none;
-  overflow: auto; /*auto*/
+  overflow: auto;
 }
 
 .slider_content {
