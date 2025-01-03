@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<performance>
+    <title>Щелкунчик</title>
+    <author>Петр Ильич Чайковский</author>
+    <description>Новогоднее представление, в котором в воображении маленькой девочки игрушки оживают, а её саму ждут волшебные приключения, бесстрашный принц и счастливый конец. </description>
+    <type>Балет в 2 действиях</type>
+    <time>2 часа 15 минут</time>
+    <creators>
+        <creator>
+            <full_name>Юрий Григорович</full_name>
+            <сreator_role>Хореограф-постановщик</сreator_role>
+        </creator>
+        <creator>
+            <full_name>Симон Вирсаладзе</full_name>
+            <сreator_role>Художник-постановщик</сreator_role>
+        </creator>
+        <creator>
+            <full_name>Геннадий Рождественский</full_name>
+            <сreator_role>Дирижер-постановщик</сreator_role>
+        </creator>
+        <creator>
+            <full_name>Михаил Соколов</full_name>
+            <сreator_role>Художник по свету</сreator_role>
+        </creator>
+    </creators>
+    <actors>
+        <actor>
+            <full_name>Александр Водопетов</full_name>
+            <role>Мышиный король</role>
+        </actor>
+        <actor>
+            <full_name>Дмитрий Смилевски</full_name>
+            <role>Щелкунчик-принц</role>
+        </actor>
+        <actor>
+            <full_name>Елизавета Кокорева</full_name>
+            <role>Мари</role>
+        </actor>
+    </actors>
+</performance>

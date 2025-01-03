@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="order">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="firstname" type="xs:string"/>
+                <xs:element name="lastname" type="xs:string"/>
+                <xs:element name="orderdate" type="xs:date"/>
+                <xs:element name="deliverydate" type="xs:date"/>
+                <xs:element name="price" type="xs:decimal"/>
+                <xs:element name="boxcount" type="xs:integer"/>
+                <xs:element name="mobile" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="orderid" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

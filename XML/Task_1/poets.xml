@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poets_silver_age>
+    <poet>
+        <full_name>Сергей Александрович Есенин</full_name>
+        <birth_date>1895-10-03</birth_date>
+        <death_date>1925-12-28</death_date>
+        <direction>Новокрестьянская поэзия</direction>
+    </poet>
+    <poet>
+        <full_name>Александр Александрович Блок</full_name>
+        <birth_date>1880-11-16</birth_date>
+        <death_date>1921-08-07</death_date>
+        <direction>Символизм</direction>
+    </poet>
+    <poet>
+        <full_name>Анна Андреевна Ахматова</full_name>
+        <birth_date>1889-06-23</birth_date>
+        <death_date>1996-03-05</death_date>
+        <direction>Акмеизм</direction>
+    </poet>
+</poets_silver_age>

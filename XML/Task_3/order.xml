@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<order orderid="1">
+    <firstname>Елизавета</firstname>
+    <lastname>Макаричева</lastname>
+    <orderdate>2024-12-12</orderdate>
+    <deliverydate>2024-12-17</deliverydate>
+    <price>990.0</price>
+    <boxcount>5</boxcount>
+    <mobile>8 900 555-44-33</mobile>
+</order>
